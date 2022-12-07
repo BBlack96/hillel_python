@@ -136,4 +136,3 @@ for i in user_value:
     if i.isdigit():
         new_list.append(int(i))
 print("Сумма всех чисел вашего значения равна: ", sum(new_list))
-#
