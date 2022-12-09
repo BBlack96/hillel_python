@@ -7,12 +7,12 @@ def unique_check(x):
     for i in x:
         if i.isdigit():
             numbers_values.append(int(i))
-    print("Ваше значение содержит следующие цифры: ", numbers_values[0:5])
+    print("Ваше значение содержит следующие цифры: ", numbers_values[0:4])
 
     for i in x:
         if i.isalpha():
            str_values.append(str(i))
-    print("Ваше значение содержит следующие буквы: ", str_values[2:7])
+    print("Ваше значение содержит следующие буквы: ", str_values[0:2])
 
 
 def summ(x):
