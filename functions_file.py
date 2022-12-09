@@ -1,9 +1,11 @@
 def unique_check(x):
     numbers_values = []
     str_values = []
+
     if len(x) > 8 or len(x) < 8:
         print("Ошибка! Вы ввели значение с некорректной длиной")
         return False
+
     for i in x:
         if i.isdigit():
             numbers_values.append(int(i))
@@ -11,7 +13,7 @@ def unique_check(x):
 
     for i in x:
         if i.isalpha():
-           str_values.append(str(i))
+            str_values.append(str(i))
     print("Ваше значение содержит следующие буквы: ", str_values[0:2])
 
 
