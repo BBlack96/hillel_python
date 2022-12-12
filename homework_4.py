@@ -4,6 +4,7 @@ from functions_file import summ
 
 with open("list.json", "r") as f:
     data_list = json.load(f)
+    f.close()
 
 plates_list_1 = set(data_list)
 print("В вашем списке", len(plates_list_1), "уникальных значений")
