@@ -15,7 +15,7 @@ def unique_check(x):
         if i.isalpha():
            str_values.append(str(i))
     print("Ваше значение содержит следующие буквы: ", str_values[0:2])
-    return numbers_values, str_values
+    return numbers_values[0:4], str_values[0:2]
 
 
 def summ(x):
