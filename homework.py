@@ -1,6 +1,7 @@
 import json
 with open("list.json", "r") as f:
     data_list = json.load(f)
+    f.close()
 
 
 plates_list_1 = set(data_list)
