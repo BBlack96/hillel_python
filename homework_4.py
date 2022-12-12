@@ -9,12 +9,11 @@ plates_list_1 = set(data_list)
 print("В вашем списке", len(plates_list_1), "уникальных значений")
 
 user_value = input("Введите ваше значение: ").upper()
-x = user_value
 plates_list_1 = set(data_list)
 if user_value in plates_list_1:
     print("Такое значение уже есть в списке")
 else:
     print("Введенное значение отсутствует в списке")
 
-unique_check(x)
-summ(x)
+unique_check(user_value)
+summ(user_value)
