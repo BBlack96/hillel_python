@@ -12,12 +12,14 @@ def unique_check(x):
 
     for i in x:
         if i.isalpha():
-           str_values.append(str(i))
+            str_values.append(str(i))
     return numbers_values[0:4], str_values[0:2]
 
 
 def summ(x):
     new_list = []
+    if len(x) > 8 or len(x) < 8:
+        return False
     for i in x:
         if i.isdigit():
             new_list.append(int(i))
