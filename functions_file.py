@@ -18,8 +18,6 @@ def unique_check(x):
 
 def summ(x):
     new_list = []
-    if len(x) > 8 or len(x) < 8:
-        return False
     for i in x:
         if i.isdigit():
             new_list.append(int(i))
