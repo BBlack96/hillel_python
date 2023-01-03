@@ -16,5 +16,5 @@ if user_value in plates_list_1:
 else:
     print("Введенное значение отсутствует в списке")
 
-unique_check(user_value)
-summ(user_value)
+print(f"Ваше значение содержит следующие цифры и буквы: {unique_check(user_value)}")
+print(f"Сумма всех чисел вашего значения равна: {summ(user_value)}")
